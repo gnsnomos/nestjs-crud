@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript CRUD repository using mongoose.
 
 ## Installation
 
@@ -43,6 +43,21 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# add post
+POST request to localhost:3000
+
+# get posts
+GET request to localhost:3000
+
+# get post
+GET request to localhost:3000/:id
+
+# update post
+PATCH request to localhost:3000/:id
+
+# delete post
+DELETE request to localhost:3000/:id
 ```
 
 ## Test
@@ -50,9 +65,6 @@ $ npm run start:prod
 ```bash
 # unit tests
 $ npm run test
-
-# e2e tests
-$ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
